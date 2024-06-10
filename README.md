@@ -1,3 +1,3 @@
 # accessibility-specialist-exercise
 
-Link to site: https://scsporie.github.io/accessibility-specialist-exercise/index
+Link to site: https://papeshh.github.io/accessibility-specialist-exercise/index
