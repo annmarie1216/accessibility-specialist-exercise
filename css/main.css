@@ -1,78 +1,95 @@
-body
-{
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-style: ;
+body {
+    font-family: Arial, sans-serif;
+    color: DarkSlateGrey;
 }
-#left-corner
-{
+
+#left-corner {
     float: left;
     margin-top: -50px;
 }
 
-#right-corner
-{
+#right-corner {
     float: right;
     margin-top: -50px;
 }
 
 /* The sidebar menu */
-.sidenav
-{
+.sidenav {
     height: 100%;
     width: 160px;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
     background-color: grey;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 50px;
 }
-  
+
+.sidenav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
 /* Nav links */
-.sidenav a
-{
+.sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: white;
     display: block;
 }
-  
-.sidenav a:hover
-{
-    color: grey;
+
+.sidenav a:hover {
+    color: yellow;
 }
-  
+
 /* Page content */
-.main
-{
+.main {
     margin-left: 160px;
-    padding: 0px 10px;
+    padding: 10px;
 }
 
-#blurb
-{
-    margin-left: 350px;
-    padding-top: 50px;
+#blurb {
+    padding-top: 100px;
     display: inline-block;
+    color: DarkSlateGray;
 }
 
-#goals
-{
-    margin-top: -100px;
-    display: block;
-    width: 25%;
+#links {
+    clear: both; 
+    margin-top: -200px; 
+    text-align: right;
+    padding-right: 50px;
 }
 
-#links
-{
-    float: right;
-    margin-top: -200px;
+#links a {
+    text-decoration: underline;
+    color: blue;
 }
 
-#links a
-{
-    text-decoration: none;
-    color: red;
+.skip {
+   background: white; 
+    color: #000;
+    height: 30px;
+    font-size: 19px; 
+    position: absolute;
+    left: 50%;
+    padding: 4px;
+    transform: translateY(0);
+    transition: transform 0.3s;
+}
+
+.skip:not(:focus) {
+    transform: translateY(-10rem);
+    
+}
+
+.main:focus {
+    outline: none;
+}
+
+footer p {
+    font-size: 19px; 
+    font-weight: bold;
 }
