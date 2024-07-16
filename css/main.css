@@ -5,11 +5,13 @@ body {
 
 #left-corner {
     float: left;
+    width: 25%;
     margin-top: -50px;
 }
 
 #right-corner {
     float: right;
+    width: 25%;
     margin-top: -50px;
 }
 
