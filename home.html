@@ -1,46 +1,48 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Bad Title</title>
-        <link rel="stylesheet" type="text/css" href="css/layout.css"/>
-        <link rel="stylesheet" type="text/css" href="css/main.css"/>
-    </head>
-    <body>
-        <!-- Side navbar -->
-        <div class="sidenav">
-            <a href="index.html">Info</a>
-            <a href="form.html">Form</a>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bad Website Example</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <a href="#main" class="skip">Skip to content</a>
+    
+   <!-- Side navbar -->
+    <nav class="sidenav">
+        <ul>
+            <li><a href="index.html">Info</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <main id="main" class="main" tabindex="-1">
+        <h1 class="ttl">Welcome</h1>
+        <img src="img/corner-dec.png" id="left-corner" alt="" width="25%">
+        <img src="img/corner-dec.png" id="right-corner" alt="" width="25%">
+
+        <div id="blurb">
+            <h2>Goals</h2>
+            <ul>
+                <li>Identify as many errors as you can</li>
+                <li>Fix them all</li>
+                <li>Submit fixes for evaluation</li>
+            </ul>
+            <h3>FYI</h3>
+            <p>This website is intentionally meant to be bad. Your job is to fix it. Good Luck.</p>
         </div>
 
-        <!-- Main -->
-        <div class="main" tabindex="3">
-            <h3 class="ttl">Welcome to this website.</h3>
-            <img src="img/corner-dec.png" id="left-corner" alt="Oh Great America" width="25%"/>
-            <img src="img/corner-dec.png" id="right-corner" alt="Oh America The Brave" width="25%"/>
-
-            <div id="blurb" tabindex="3">
-                <h5>FYI</h5>
-                <p>This website is intentionally meant to be bad. Your job is to fix it. Good Luck.</p>
-            </div>
-            <div id="goals">
-                <h1>Goals</h1>
-                <ul>
-                    <li tabindex="3">Identify as many errors as you can</li>
-                    <li>Fix them all</li>
-                    <li>Submit fixes for evaluation</li>
-                </ul>
-            </div>
-            <div id="links">
-                <h4>Click these links for help</h4>
-                <a href="hints.html">Click here</a>
-            </div>
+        <div id="links">
+            <h2>Helpful Tips</h2>
+            <a href="hints.html">Resource #1</a>
         </div>
-        
-        <!-- Footer -->
-        <footer>
-            <p>
-               Accessibility Team
-            </p>
-        </footer>
-    </body>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Accessibility Team</p>
+    </footer>
+</body>
 </html>
